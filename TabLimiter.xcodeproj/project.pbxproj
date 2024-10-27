@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EF91F8C2CCEEC80004399D5 /* TabLimiter Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3EF91F8B2CCEEC80004399D5 /* TabLimiter Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EF91F762CCEEC80004399D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF91F512CCEEC7B004399D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF91F582CCEEC7B004399D5;
+			remoteInfo = TabLimiter;
+		};
+		3EF91F802CCEEC80004399D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF91F512CCEEC7B004399D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF91F582CCEEC7B004399D5;
+			remoteInfo = TabLimiter;
+		};
+		3EF91F8D2CCEEC80004399D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF91F512CCEEC7B004399D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF91F8A2CCEEC80004399D5;
+			remoteInfo = "TabLimiter Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3EF91FAB2CCEEC80004399D5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3EF91F8C2CCEEC80004399D5 /* TabLimiter Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3EF91F592CCEEC7B004399D5 /* TabLimiter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabLimiter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF91F752CCEEC80004399D5 /* TabLimiterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabLimiterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF91F7F2CCEEC80004399D5 /* TabLimiterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabLimiterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF91F8B2CCEEC80004399D5 /* TabLimiter Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TabLimiter Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3EF91FA52CCEEC80004399D5 /* Exceptions for "TabLimiter Extension" folder in "TabLimiter Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3EF91F8A2CCEEC80004399D5 /* TabLimiter Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3EF91F5B2CCEEC7B004399D5 /* TabLimiter */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TabLimiter;
+			sourceTree = "<group>";
+		};
+		3EF91F782CCEEC80004399D5 /* TabLimiterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TabLimiterTests;
+			sourceTree = "<group>";
+		};
+		3EF91F822CCEEC80004399D5 /* TabLimiterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TabLimiterUITests;
+			sourceTree = "<group>";
+		};
+		3EF91F8F2CCEEC80004399D5 /* TabLimiter Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3EF91FA52CCEEC80004399D5 /* Exceptions for "TabLimiter Extension" folder in "TabLimiter Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "TabLimiter Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EF91F562CCEEC7B004399D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF91F722CCEEC80004399D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF91F7C2CCEEC80004399D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF91F882CCEEC80004399D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EF91F502CCEEC7B004399D5 = {
+			isa = PBXGroup;
+			children = (
+				3EF91F5B2CCEEC7B004399D5 /* TabLimiter */,
+				3EF91F782CCEEC80004399D5 /* TabLimiterTests */,
+				3EF91F822CCEEC80004399D5 /* TabLimiterUITests */,
+				3EF91F8F2CCEEC80004399D5 /* TabLimiter Extension */,
+				3EF91F5A2CCEEC7B004399D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EF91F5A2CCEEC7B004399D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EF91F592CCEEC7B004399D5 /* TabLimiter.app */,
+				3EF91F752CCEEC80004399D5 /* TabLimiterTests.xctest */,
+				3EF91F7F2CCEEC80004399D5 /* TabLimiterUITests.xctest */,
+				3EF91F8B2CCEEC80004399D5 /* TabLimiter Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EF91F582CCEEC7B004399D5 /* TabLimiter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF91FAC2CCEEC80004399D5 /* Build configuration list for PBXNativeTarget "TabLimiter" */;
+			buildPhases = (
+				3EF91F552CCEEC7B004399D5 /* Sources */,
+				3EF91F562CCEEC7B004399D5 /* Frameworks */,
+				3EF91F572CCEEC7B004399D5 /* Resources */,
+				3EF91FAB2CCEEC80004399D5 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF91F8E2CCEEC80004399D5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3EF91F5B2CCEEC7B004399D5 /* TabLimiter */,
+			);
+			name = TabLimiter;
+			packageProductDependencies = (
+			);
+			productName = TabLimiter;
+			productReference = 3EF91F592CCEEC7B004399D5 /* TabLimiter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EF91F742CCEEC80004399D5 /* TabLimiterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF91FAF2CCEEC80004399D5 /* Build configuration list for PBXNativeTarget "TabLimiterTests" */;
+			buildPhases = (
+				3EF91F712CCEEC80004399D5 /* Sources */,
+				3EF91F722CCEEC80004399D5 /* Frameworks */,
+				3EF91F732CCEEC80004399D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF91F772CCEEC80004399D5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3EF91F782CCEEC80004399D5 /* TabLimiterTests */,
+			);
+			name = TabLimiterTests;
+			packageProductDependencies = (
+			);
+			productName = TabLimiterTests;
+			productReference = 3EF91F752CCEEC80004399D5 /* TabLimiterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EF91F7E2CCEEC80004399D5 /* TabLimiterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF91FB22CCEEC80004399D5 /* Build configuration list for PBXNativeTarget "TabLimiterUITests" */;
+			buildPhases = (
+				3EF91F7B2CCEEC80004399D5 /* Sources */,
+				3EF91F7C2CCEEC80004399D5 /* Frameworks */,
+				3EF91F7D2CCEEC80004399D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF91F812CCEEC80004399D5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3EF91F822CCEEC80004399D5 /* TabLimiterUITests */,
+			);
+			name = TabLimiterUITests;
+			packageProductDependencies = (
+			);
+			productName = TabLimiterUITests;
+			productReference = 3EF91F7F2CCEEC80004399D5 /* TabLimiterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3EF91F8A2CCEEC80004399D5 /* TabLimiter Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF91FA62CCEEC80004399D5 /* Build configuration list for PBXNativeTarget "TabLimiter Extension" */;
+			buildPhases = (
+				3EF91F872CCEEC80004399D5 /* Sources */,
+				3EF91F882CCEEC80004399D5 /* Frameworks */,
+				3EF91F892CCEEC80004399D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3EF91F8F2CCEEC80004399D5 /* TabLimiter Extension */,
+			);
+			name = "TabLimiter Extension";
+			packageProductDependencies = (
+			);
+			productName = "TabLimiter Extension";
+			productReference = 3EF91F8B2CCEEC80004399D5 /* TabLimiter Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EF91F512CCEEC7B004399D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3EF91F582CCEEC7B004399D5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					3EF91F742CCEEC80004399D5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3EF91F582CCEEC7B004399D5;
+					};
+					3EF91F7E2CCEEC80004399D5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3EF91F582CCEEC7B004399D5;
+					};
+					3EF91F8A2CCEEC80004399D5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 3EF91F542CCEEC7B004399D5 /* Build configuration list for PBXProject "TabLimiter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EF91F502CCEEC7B004399D5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3EF91F5A2CCEEC7B004399D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EF91F582CCEEC7B004399D5 /* TabLimiter */,
+				3EF91F742CCEEC80004399D5 /* TabLimiterTests */,
+				3EF91F7E2CCEEC80004399D5 /* TabLimiterUITests */,
+				3EF91F8A2CCEEC80004399D5 /* TabLimiter Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EF91F572CCEEC7B004399D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF91F732CCEEC80004399D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF91F7D2CCEEC80004399D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF91F892CCEEC80004399D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EF91F552CCEEC7B004399D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF91F712CCEEC80004399D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF91F7B2CCEEC80004399D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF91F872CCEEC80004399D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EF91F772CCEEC80004399D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF91F582CCEEC7B004399D5 /* TabLimiter */;
+			targetProxy = 3EF91F762CCEEC80004399D5 /* PBXContainerItemProxy */;
+		};
+		3EF91F812CCEEC80004399D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF91F582CCEEC7B004399D5 /* TabLimiter */;
+			targetProxy = 3EF91F802CCEEC80004399D5 /* PBXContainerItemProxy */;
+		};
+		3EF91F8E2CCEEC80004399D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF91F8A2CCEEC80004399D5 /* TabLimiter Extension */;
+			targetProxy = 3EF91F8D2CCEEC80004399D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3EF91FA72CCEEC80004399D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "TabLimiter Extension/TabLimiter_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TabLimiter Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TabLimiter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingmidas.TabLimiter.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3EF91FA82CCEEC80004399D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "TabLimiter Extension/TabLimiter_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TabLimiter Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TabLimiter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingmidas.TabLimiter.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3EF91FA92CCEEC80004399D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EF91FAA2CCEEC80004399D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3EF91FAD2CCEEC80004399D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TabLimiter/TabLimiter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TabLimiter;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingmidas.TabLimiter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3EF91FAE2CCEEC80004399D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TabLimiter/TabLimiter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TabLimiter;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingmidas.TabLimiter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3EF91FB02CCEEC80004399D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingmidas.TabLimiterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabLimiter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabLimiter";
+			};
+			name = Debug;
+		};
+		3EF91FB12CCEEC80004399D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingmidas.TabLimiterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabLimiter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabLimiter";
+			};
+			name = Release;
+		};
+		3EF91FB32CCEEC80004399D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingmidas.TabLimiterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TabLimiter;
+			};
+			name = Debug;
+		};
+		3EF91FB42CCEEC80004399D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingmidas.TabLimiterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TabLimiter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EF91F542CCEEC7B004399D5 /* Build configuration list for PBXProject "TabLimiter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF91FA92CCEEC80004399D5 /* Debug */,
+				3EF91FAA2CCEEC80004399D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF91FA62CCEEC80004399D5 /* Build configuration list for PBXNativeTarget "TabLimiter Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF91FA72CCEEC80004399D5 /* Debug */,
+				3EF91FA82CCEEC80004399D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF91FAC2CCEEC80004399D5 /* Build configuration list for PBXNativeTarget "TabLimiter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF91FAD2CCEEC80004399D5 /* Debug */,
+				3EF91FAE2CCEEC80004399D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF91FAF2CCEEC80004399D5 /* Build configuration list for PBXNativeTarget "TabLimiterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF91FB02CCEEC80004399D5 /* Debug */,
+				3EF91FB12CCEEC80004399D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF91FB22CCEEC80004399D5 /* Build configuration list for PBXNativeTarget "TabLimiterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF91FB32CCEEC80004399D5 /* Debug */,
+				3EF91FB42CCEEC80004399D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EF91F512CCEEC7B004399D5 /* Project object */;
+}
